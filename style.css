@@ -1,0 +1,91 @@
+h2 {
+  font-size: 5rem;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+.h1class {
+  font-family: "Tropical", sans-serif;
+  color: rgb(0, 217, 255);
+}
+.fontclass {
+  font-family: "Tropical", sans-serif;
+  /* margin-right: 30px; */
+}
+.text-wrapper {
+  margin: 0 20% 2% 20%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/drink.jpg");
+  position: sticky;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.rptbg {
+  background-image: url(images/drink.jpg);
+  position: sticky;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+.searchbar {
+  width: 40%;
+  margin: 0 30% 1% 30%;
+}
+
+/* radio buttons */
+
+.filters {
+  margin: 1rem;
+}
+
+.filter-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background-color: rgb(96, 198, 206);
+  border-radius: 5px;
+}
+.grid-item {
+  pad: 10px;
+}
+.grid-item2 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: 1rem;
+  margin-bottom: 10px;
+  gap: 1rem;
+}
+.random-card {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: grid;
+}
+.card-body {
+  overflow-y: auto;
+}
